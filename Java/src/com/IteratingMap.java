@@ -11,5 +11,9 @@ public class IteratingMap {
         map.put("Tom Cruise",64);
 
         System.out.println(map);
+
+        for(Map.Entry<String,Integer> entry:map.entrySet()){
+            System.out.println("Key :"+entry.getKey()+ " Values :"+entry.getValue());
+        }
     }
 }
